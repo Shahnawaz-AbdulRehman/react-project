@@ -32,4 +32,4 @@ jobs:
       - name: Installing surge
         run: npm install --global surge
       - name: deploying using surge
-        run: surge ./ kindhearted-harmony.surge.sh -- token "d818f28b63cdacce7fba83f9d2dc613e"
+        run: surge ./ kindhearted-harmony.surge.sh
